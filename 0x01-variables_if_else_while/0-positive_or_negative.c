@@ -7,11 +7,10 @@
 
 
 /**
- *
- *  * main - number is positive, negative or zero.
- *
- *  * Return: Always 0 (Success)
- */
+*  * main - number is positive, negative or zero.
+*
+*  * Return: Always 0 (Success)
+*/
 int main(void)
 
 {

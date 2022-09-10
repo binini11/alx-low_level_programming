@@ -13,11 +13,11 @@ int main(void)
         char abc[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (1=0;i<52;i++)
+	for (1=0;i<52;i++);
 	{
-		putchar(abc[i])
+		putchar(abc[i]);
 	}
 	putchar("\n");
-	return(0)
+	return(0);
 
 }

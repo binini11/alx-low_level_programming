@@ -14,7 +14,10 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
+		if (abc[1] != "q" && abc([i] != "e"))
+		{
 		putchar(abc[i]);
+		}
 	}
 	putchar('\n');
 	return (0);

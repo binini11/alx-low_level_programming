@@ -14,7 +14,7 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		if (abc[i] != "q" && abc[i] != "e")
+		if (abc[i] != abc[4] && abc[i] != abc[16])
 		{
 		putchar(abc[i]);
 		}

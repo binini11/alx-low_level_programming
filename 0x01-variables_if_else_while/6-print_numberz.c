@@ -3,18 +3,17 @@
 #include <stdio.h>
 
 /**
-*  * main - printsabc in lowercasefirst and the in uppercase.
+*  * main - prints base 10 number from their acsi represtation prespective.
 *
 *  * Return: Always 0 (Success)
 */
 int main(void)
 {
-	int numberz[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 	int i;
 
-	for (i = 0; i < 10; i++)
+	for (i = 48; i < 58; i++)
 	{
-		putchar(numberz[i]);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);

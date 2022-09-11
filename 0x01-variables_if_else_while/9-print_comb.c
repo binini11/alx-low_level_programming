@@ -3,18 +3,22 @@
 #include <stdio.h>
 
 /**
-*  * main - printsabc in lowercasefirst and the in uppercase.
+*  * main - printts single digit comb0 of base 10 seprated by coma and space.
 *
 *  * Return: Always 0 (Success)
 */
 int main(void)
 {
-	char hexa[16] = "0123456789abcdef";
 	int i;
 
-	for (i = 0; i < 16; i++)
+	for (i = 48; i < 58; i++)
 	{
-		putchar(hexa[i]);
+		putchar(i);
+		if (i != 57)
+		{
+		putchar(',');
+		putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);

@@ -1,7 +1,6 @@
 #include<stdio.h>
 /**
 * main -displaying the size of data types in bytes
-* 
 * Return: Always 0 (Success)
 */
 int main(void)

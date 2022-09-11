@@ -8,7 +8,7 @@ int main(void)
 	char test[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 	int i;
 
-	for (i = 0; i < 54; i++)
+	for (i = 0; i < 59; i++)
 	{
 		putchar(test[i]);
 	}

@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
-*main - Entry point
-*Return: Always 0 (Success)
+*main -prints the text string as is 
+*Return: Always 1 (Success)
 */
 int main(void)
 {
@@ -12,6 +12,6 @@ int main(void)
 	{
 		putchar(test[i]);
 	}
-	return (0);
+	return (1);
 }
 

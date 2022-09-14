@@ -9,11 +9,11 @@
 */
 int main(void)
 {
-	int i, character[] = {45, 112, 117, 116, 99, 104, 97, 114};
+	int i, character[8] = {95, 112, 117, 116, 99, 104, 97, 114};
 
-	for (i = 0; i < sizeof(character); i++)
+	for (i = 0; i < 8; i++)
 	{
-	putchar();
+	putchar(character[i]);
 	}
 	putchar('\n');
 	return (0);

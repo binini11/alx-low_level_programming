@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
 *  * print_alphabet - prints als the alphabet in lowercaseg.
 *
@@ -11,7 +11,7 @@ int print_alphabet(void)
 
 	for (i = 97; i < 123; i++)
 	{
-		_putchar(i);
+		putchar(i);
 	}
-	_putchar('\n');
+	putchar('\n');
 }

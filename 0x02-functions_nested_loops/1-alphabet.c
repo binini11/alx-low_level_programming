@@ -6,6 +6,7 @@
 */
 int print_alphabet(void)
 {
+	int i;
 	char abc[26] = "abcdefghijklmnopqrstuvwxyz";
 
 	for (i = 0; i < 26; i++)

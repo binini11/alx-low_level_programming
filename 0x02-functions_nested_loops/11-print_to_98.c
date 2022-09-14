@@ -12,16 +12,15 @@ void print_to_98(int n)
 	{
 		for (; n > 98; n--)
 		{
-			_putchar("%d, ", n);
+			_putchar(n);
 		}
 	}
 	else if (n < 98)
 	{
 		for (; < 98; n++)
 		{
-		_putchar("%d, ", n);
+		_putchar(n);
 		}
 	}
-	_putchar("%d\n", n);
-
+	_putchar('\n');
 }

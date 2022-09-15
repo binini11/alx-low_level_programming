@@ -1,8 +1,9 @@
-#ifndef _main_h
-#define _main_h
+#ifndef _MAIN_H 
+#define _MAIN_H
 
-int _putchar(char);
-void print_alphabet(void);
+#include <stdio.h>
+
+void positive_or_negative(int i);
 void print_alphabet_x10(void);
 int _islower(int c);
 int _isalpha(int c);
@@ -14,4 +15,4 @@ void times_table(void);
 int add(int, int);
 void print_to_98(int n);
 
-#endif
+#endif /* MAIN_H */

@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
 * largest_number - causes an infinite loop.
 * @a: first integer

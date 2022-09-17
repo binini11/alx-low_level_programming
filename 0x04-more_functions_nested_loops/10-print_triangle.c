@@ -1,34 +1,32 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
-* main - print  buzz
-* Return: 0 success
+* print_square - print squre
+* @size: size of the squre
+* Return:noting
 */
 
-int main(void)
+void print_square(int size)
 {
-	int i;
+	int i, j;
 
-	printf("%d", n);
-	for (i = 0; i <= 100; i++)
+	for (i = 0; i < size; i++)
 	{
-		if ((n % 3 == 0) && (n % 5 == 0))
+		for (j = 1; j < (size - i); j++)
 		{
-			printf(" FizzBuzz");
+			_putchar(' ');
 		}
-		else if (n % 3 == 0)
+		for (j--; j < size; j++)
 		{
-			printf(" Fizz");
+			_putchar(35);
 		}
-		else if (n % 5 == 0)
+		if (i < (size - 1))
 		{
-			printf(" Buzz");
+			_putchar('\n');
 		}
-		else
-		{
-			printf(" %d", n);
-		}
-		printf("\n");
-		return ();
+	}
+	if (size <= 0)
+	{
+		_putchar('\n');
 	}
 }

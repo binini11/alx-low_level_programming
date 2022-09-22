@@ -1,14 +1,15 @@
 #include "main.h"
 #include <stdio.h>
 /**
-*_strcat -it takes in avalue and updates it
+*_strncat - takes in two strings and puts them togwther
 * @dest: input.
-* @src: input
+* @src: input.
+* @n: input
 *
 * Return: councatinated string dest
 **/
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
@@ -19,7 +20,7 @@ char *_strcat(char *dest, char *src)
 	{
 		i++;
 	}
-	while (j >= 0)
+	while (j >= n)
 	{
 		*(dest + i) = *(src + j);
 		if (*(src + j) == '\0')

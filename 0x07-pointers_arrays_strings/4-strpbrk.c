@@ -7,7 +7,7 @@
 * Return: a pointer to a character to a string if found.
 **/
 
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i = 0, j = 0;
 

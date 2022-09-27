@@ -23,7 +23,5 @@ char *_strpbrk(char *s, char *accept)
 		}
 		i++;
 	}
-	if (*(s + i) == *(accept + j))
-		return (s + i);
 	return ('\0');
 }

@@ -17,13 +17,13 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (*(s + i) == *(accept + j))
 			{
-				return (accept + j);
+				return (s + i);
 			}
 			j++;
 		}
 		i++;
 	}
 	if (*(s + i) == *(accept + j))
-		return (accept + j);
+		return (s + i);
 	return ('\0');
 }

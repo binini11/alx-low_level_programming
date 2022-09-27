@@ -4,7 +4,7 @@
 **_memset - fills a memory with a constant.
 * @s: input.
 * @b: input.
-* @n: input.
+* @n: inputiss
 * Return: constant filld s.
 **/
 

@@ -7,7 +7,7 @@
  * Return: a pinter
 **/
 
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	unsigned int i, j;
 	char *b;

@@ -10,7 +10,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int i, j, k, limits;
+	unsigned int i, j, k, limit;
 	char *b;
 
 	if (s1 == NULL)
@@ -33,12 +33,12 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	for (k = 0; k <= i; k++)
-		b[j] = s1[j];
+		b[k] = s1[k];
 
 	limit = j;
 
 	for (j = 0; j <= limit; k++; J++)
-		b[k] = s2[j]
+		b[k] = s2[j];
 
 	return (b);
 }

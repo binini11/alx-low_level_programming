@@ -32,7 +32,7 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 
-	for (k = 0; k <= i; k++)
+	for (k = 0; k < i; k++)
 		b[k] = s1[k];
 
 	limit = j;

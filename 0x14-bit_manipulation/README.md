@@ -1,0 +1,1 @@
+readne for bit manupulation

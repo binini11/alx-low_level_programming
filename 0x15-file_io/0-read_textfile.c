@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * read_textfile - reads textfile and prints its letters
+ * read_textfile - reads a text file and prints the letters
  * @filename: filename.
- * @letters: number of letters printed
+ * @letters: numbers of letters printed.
  *
- * Return: numbers of letters printed . Onfail returns 0.
+ * Return: numbers of letters printed. It fails, returns 0.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -24,7 +24,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	buf = malloc(sizeof(char) * (letters));
 	if (!buf)
 		return (0);
-
 	nrd = read(fd, buf, letters);
 	nwr = write(STDOUT_FILENO, buf, nrd);
 

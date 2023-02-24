@@ -5,6 +5,6 @@ NAME=school
 
 all: school
 
-school:
+school: $(OBJ)
 	$(CC) $(SRC) -o $(NAME)
 

@@ -1,3 +1,4 @@
+all: school
 CC=gcc
 SRC=main.c school.c
 OBJ=$(SRC:%.c=%.o)
@@ -6,7 +7,7 @@ RM=rm -f
 CFLAGS= -Wall -Werror -Wextra -pendatic
 
 
-all: $(OBJ)
+school: $(OBJ)
 	$(CC) $(CFLAGS) $(SRC) -o $(NAME)
 
 clean:
